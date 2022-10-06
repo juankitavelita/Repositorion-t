@@ -1,11 +1,18 @@
 table {
     border-collapse: collapse;
+    width: 38%;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 2%;
 }
 
 #apertura {
     font-weight: bold;
 }
 
-.html {
+html {
     text-align: center;
 }
