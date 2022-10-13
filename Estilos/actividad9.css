@@ -1,0 +1,12 @@
+table {
+    width: 70%;
+}
+
+td{
+    width: 15%;
+    vertical-align: top;
+}
+
+#descripciones{
+    padding-top: 20px;
+}
