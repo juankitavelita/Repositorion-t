@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eventos>
-    <evento descr="IBM da a conocer el PC.">
+    <fecha descr="IBM da a conocer el PC.">
         <dia>12</dia>
         <mes>8</mes>
         <año>1981</año>
-    </evento>
-    <evento descr="Se funda Google.">
+    </fecha>
+    <fecha descr="Se funda Google.">
         <dia>4</dia>
         <mes>9</mes>
         <año>1998</año>
-    </evento>
-    <evento descr="Se funda Facebook.">
+    </fecha>
+    <fecha descr="Se funda Facebook.">
         <dia>4</dia>
         <mes>2</mes>
         <año>2004</año>
-    </evento>
+    </fecha>
 </eventos>
