@@ -9,7 +9,7 @@ td, th {
     padding: 2%;
 }
 
-#apertura {
+.apertura {
     font-weight: bold;
 }
 
@@ -17,6 +17,6 @@ html {
     text-align: center;
 }
 
-#colores{
+.colores{
     margin: 2px;
 }
