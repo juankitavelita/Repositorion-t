@@ -14,7 +14,7 @@
         <tel>91.777.66.88</tel>
         <fax>91.777.66.99</fax>
     </empresa>
-    <cliente nº="879">
+    <cliente numero="879">
         <nombre>Darío Bueno Gutiérrez</nombre>
         <direccion>Av. Oporto nº7 4ºd</direccion>
         <ciudad>Madrid</ciudad>
