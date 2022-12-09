@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+.header{
+padding: 50px 12px;
+background-color: yellow;
+text-align: center;
+display: flex;
+flex-direction: row;
+}
+ul{
+    word-spacing: 100px;
+}
+.flex-container{
+display: flex;
+border: 1px;
+background-color: blueviolet;
+flex-wrap: wrap;
+}
+.caja{
+    border: 1px solid red;
+    background-color: wheat;
+    color: black;
+    width: 120px;
+    height: 850px;
+    margin: 5px;
+    flex-grow: 8;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+.caja2{
+    border: 1px solid red;
+    background-color: wheat;
+    color: black;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    flex-grow: 1;
+}
+.abajo{
+        float: left;
+        width: 100%;
+        background-color: rgb(146, 27, 106);
+        text-align: center;
+}
+div img{
+    
+ }
