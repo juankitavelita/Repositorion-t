@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="file.xsl" type="text/xsl"?>
+<?xml-stylesheet href="actividad22.xsl" type="text/xsl"?>
 <CDs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="actividad12.xsd">
     <CD titulo="Still got the blues">
