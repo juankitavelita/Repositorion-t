@@ -17,7 +17,11 @@
                         <tr>
                             <td>
                                 <xsl:value-of select="dia"/>
+                            </td>
+                            <td>
                                 <xsl:value-of select="mes"/>
+                            </td>
+                            <td>
                                 <xsl:value-of select="año"/>
                             </td>
                             <td>
