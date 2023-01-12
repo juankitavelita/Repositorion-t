@@ -5,10 +5,15 @@
             <body>
                 <table border="1">
                     <tr>
-                        <th>Fecha</th>
-                        <th>Descripción</th>
+                        <th colspan="3">Fecha</th>
+                        <th rowspan="2">Descripción</th>
                     </tr>
                     <xsl:for-each select="eventos/fecha">
+                        <tr>
+                            <td>Día</td>
+                            <td>Mes</td>
+                            <td>Año</td>
+                        </tr>
                         <tr>
                             <td>
                                 <xsl:value-of select="dia"/>
