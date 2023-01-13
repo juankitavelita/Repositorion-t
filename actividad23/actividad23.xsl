@@ -76,15 +76,13 @@
                         <th colspan="2">% I.V.A.</th>
                         <th colspan="2">Cuota I.V.A.</th>
                     </tr>
-                </table>
-                <table border="1">
                     <tr>
-                        <td colspan="1"><xsl:value-of select="factura/precio/base"/></td>
-                        <td colspan="1"><xsl:value-of select="factura/precio/iva"/></td>
-                        <td colspan="1"><xsl:value-of select="factura/precio/anadido>"/></td>
+                        <td colspan="2"><xsl:value-of select="factura/precio/base"/></td>
+                        <td colspan="2"><xsl:value-of select="factura/precio/iva"/></td>
+                        <td colspan="2"></td>
                     </tr>
                     <tr>
-                        <th colspan="3">TOTAL FACTURA: <xsl:value-of select="factura/precio/total"/> eur</th>
+                        <th colspan="6">TOTAL FACTURA: <xsl:value-of select="factura/precio/total"/> eur</th>
                     </tr>
                 </table>
             </body>
