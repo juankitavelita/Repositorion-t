@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
-
         <html>
             <body>
                 <h2>Factura</h2>
@@ -78,16 +77,7 @@
                         <th colspan="2">Cuota I.V.A.</th>
                     </tr>
                 </table>
-                <table border="1">
-                    <tr>
-                        <td colspan="2"><xsl:value-of select="factura/precio/base"/></td>
-                        <td colspan="2"><xsl:value-of select="factura/precio/iva"/></td>
-                        <td colspan="2"><xsl:value-of select="factura/precio/añadido>"/></td>
-                    </tr>
-                    <tr>
-                        <th colspan="6">TOTAL FACTURA: <xsl:value-of select="factura/precio/total"/> eur</th>
-                    </tr>
-                </table>
+                
             </body>
         </html>
     </xsl:template>
