@@ -6,27 +6,27 @@
             <body>
                 <h2>Factura</h2>
                 <table border="1">
-                    <tr border="1">
+                    <tr>
                         <th colspan="3">Numero de factura: <xsl:value-of select="factura/@nunero"/></th>
                     </tr>
-                    <tr border="1">
+                    <tr>
                         <td colspan="2">Empresa: <xsl:value-of select="factura/empresa/nombre"/></td>
                     </tr>
-                    <tr border="1">
+                    <tr>
                         <td colspan="2">Dirección: <xsl:value-of select="factura/empresa/direccion"/></td>
                     </tr>
-                    <tr border="1">
+                    <tr>
                         <td colspan="2">Ciudad: <xsl:value-of select="factura/empresa/ciudad"/> <xsl:value-of select="factura/empresa/postal"/></td>
                     </tr>
-                    <tr border="1">
+                    <tr>
                         <td colspan="2">CIF: <xsl:value-of select="factura/empresa/cif"/></td>
                         <td>Fecha: <xsl:value-of select="factura/info/fecha"/></td>
                     </tr>
-                    <tr border="1">
+                    <tr>
                         <td colspan="2">Reléfono: <xsl:value-of select="factura/empresa/tel"/></td>
                         <td>Pedido <xsl:value-of select="factura/info/pedido"/></td>
                     </tr>
-                    <tr border-right="1">
+                    <tr>
                         <td colspan="2">Fax: <xsl:value-of select="factura/empresa/fax"/></td>
                         <td>Forma de pago: <xsl:value-of select="factura/info/pago"/></td>
                     </tr>
