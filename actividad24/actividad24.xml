@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDs>
+    <CD titulo="Still got the blues">
+        <artista>Gary Moore</artista>
+        <pais>UK</pais>
+        <compañia>Virgin records</compañia>
+        <precio>10.20</precio>
+        <año>1990</año>
+    </CD>
+    <CD titulo="One night only">
+        <artista>Bee Gees</artista>
+        <pais>UK</pais>
+        <compañia>Polydor</compañia>
+        <precio>10.90</precio>
+        <año>1998</año>
+    </CD>
+    <CD titulo="When a man loves a woman">
+        <artista>Percy Sledge</artista>
+        <pais>USA</pais>
+        <compañia>Atlantic</compañia>
+        <precio>8.70</precio>
+        <año>1987</año>
+    </CD>
+    <CD titulo="Big Willie style">
+        <artista>Will Smith</artista>
+        <pais>UK</pais>
+        <compañia>Columbia</compañia>
+        <precio>9.90</precio>
+        <año>1997</año>
+    </CD>
+    <CD titulo="La canción de Juan Perro">
+        <artista>Radio Futura</artista>
+        <pais>España</pais>
+        <compañia>Sony Music-Ariola</compañia>
+        <precio>9.90</precio>
+        <año>1987</año>
+    </CD>
+    <CD titulo="The dock of the bay">
+        <artista>Otis Redding</artista>
+        <pais>USA</pais>
+        <compañia>Atlantic</compañia>
+        <precio>7.90</precio>
+        <año>1987</año>
+    </CD>
+</CDs>
