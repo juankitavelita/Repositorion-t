@@ -34,21 +34,15 @@
                 <br/>
                 <table border="1">
                     <tr>
-                        <th>Nombre de la empresa</th>
-                        <th>Dirección</th>
-                        <th>Ciudad</th>
-                        <th>Código Postal</th>
-                        <th>CIF</th>
-                        <th>Teléfono</th>
-                        <th>Fax</th>
+                        <th>Datos CLIENTE</th>
                     </tr>
                     <tr>
-                        <td><xsl:value-of select="factura/empresa/nombre"/></td>
-                        <td><xsl:value-of select="factura/empresa/direccion"/></td>
-                        <td><xsl:value-of select="factura/empresa/ciudad"/></td>
-                        <td><xsl:value-of select="factura/empresa/postal"/></td>
-                        <td><xsl:value-of select="factura/empresa/cif"/></td>
-                        <td><xsl:value-of select="factura/empresa/tel"/></td>
+                        <td>nº cliente: <xsl:value-of select="factura/@nunero"/></td>
+                        <td>Nombre: <xsl:value-of select="factura/cliente/nombre"/></td>
+                        <td>Dirección: <xsl:value-of select="factura/cliente/direccion"/></td>
+                        <td>Población <xsl:value-of select="factura/cliente/ciudad"/></td>
+                        <td>Cod. postal: <xsl:value-of select="factura/cliente/postal"/></td>
+                        <td>Provincia: <xsl:value-of select="factura/cliente/provincia"/></td>
                     </tr>
                 </table>
             </body>
