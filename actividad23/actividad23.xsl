@@ -20,18 +20,17 @@
                     </tr>
                     <tr border="1">
                         <td colspan="2">CIF: <xsl:value-of select="factura/empresa/cif"/></td><td></td>
+                        <td>Fecha: <xsl:value-of select="factura/info/fecha"/></td>
                     </tr>
                     <tr border="1">
                         <td colspan="2">Reléfono: <xsl:value-of select="factura/empresa/tel"/></td><td></td>
+                        <td>Pedido <xsl:value-of select="factura/info/pedido"/></td>
                     </tr>
                     <tr border="1">
                         <td colspan="2">Fax: <xsl:value-of select="factura/empresa/fax"/></td><td></td>
+                        <td>Forma de pago: <xsl:value-of select="factura/info/pago"/></td>
                     </tr>
                     <tr>
-                        <td><xsl:value-of select="factura/@nunero"/></td>
-                        <td><xsl:value-of select="factura/info/fecha"/></td>
-                        <td><xsl:value-of select="factura/info/pedido"/></td>
-                        <td><xsl:value-of select="factura/info/pago"/></td>
                     </tr>
                 </table>
                 <br/>
