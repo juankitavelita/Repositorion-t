@@ -4,7 +4,7 @@
 <xsl:output method="text" encoding="UTF-8" indent="yes"/>
 
 <xsl:template match="/">
-  {"CDs": [
+  {"CDs":[
   <xsl:apply-templates select="CDs/CD"/>
   ]}
 </xsl:template>
