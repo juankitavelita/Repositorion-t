@@ -79,7 +79,7 @@
                     <tr>
                         <td colspan="2"><xsl:value-of select="factura/precio/base"/></td>
                         <td colspan="2"><xsl:value-of select="factura/precio/iva"/></td>
-                        <td colspan="2"></td>
+                        <td colspan="2"><xsl:value-of select="factura/precio/anadido"/></td>
                     </tr>
                     <tr>
                         <th colspan="6">TOTAL FACTURA: <xsl:value-of select="factura/precio/total"/> eur</th>
