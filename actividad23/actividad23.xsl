@@ -5,12 +5,27 @@
         <html>
             <body>
                 <h2>Factura</h2>
-                <table border="1">
-                    <tr bgcolor="#9acd32">
-                        <th>Número de factura</th>
-                        <th>Fecha</th>
-                        <th>Número de pedido</th>
-                        <th>Forma de pago</th>
+                <table>
+                    <tr border="1">
+                        <th>Numero de factura: <xsl:value-of select="factura/@nunero"/></th>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">Empresa: <xsl:value-of select="factura/empresa/nombre"/></td><td></td>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">Dirección: <xsl:value-of select="factura/empresa/direccion"/></td><td></td>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">Ciudad: <xsl:value-of select="factura/empresa/ciudad"/> <xsl:value-of select="factura/empresa/postal"/></td><td></td>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">CIF: <xsl:value-of select="factura/empresa/cif"/></td><td></td>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">Reléfono: <xsl:value-of select="factura/empresa/tel"/></td><td></td>
+                    </tr>
+                    <tr border="1">
+                        <td colspan="2">Fax: <xsl:value-of select="factura/empresa/fax"/></td><td></td>
                     </tr>
                     <tr>
                         <td><xsl:value-of select="factura/@nunero"/></td>
@@ -21,7 +36,7 @@
                 </table>
                 <br/>
                 <table border="1">
-                    <tr bgcolor="#9acd32">
+                    <tr>
                         <th>Nombre de la empresa</th>
                         <th>Dirección</th>
                         <th>Ciudad</th>
