@@ -7,7 +7,7 @@
                 <h2>Factura</h2>
                 <table border="1">
                     <tr border="1">
-                        <th>Numero de factura: <xsl:value-of select="factura/@nunero"/></th>
+                        <th colspan="3">Numero de factura: <xsl:value-of select="factura/@nunero"/></th>
                     </tr>
                     <tr border="1">
                         <td colspan="2">Empresa: <xsl:value-of select="factura/empresa/nombre"/></td><td></td>
