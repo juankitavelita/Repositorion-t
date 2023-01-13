@@ -38,10 +38,20 @@
                     </tr>
                     <tr>
                         <td>nº cliente: <xsl:value-of select="factura/@nunero"/></td>
+                    </tr>
+                    <tr>
                         <td>Nombre: <xsl:value-of select="factura/cliente/nombre"/></td>
+                    </tr>
+                    <tr>
                         <td>Dirección: <xsl:value-of select="factura/cliente/direccion"/></td>
+                    </tr>
+                    <tr>
                         <td>Población <xsl:value-of select="factura/cliente/ciudad"/></td>
+                    </tr>
+                    <tr>
                         <td>Cod. postal: <xsl:value-of select="factura/cliente/postal"/></td>
+                    </tr>
+                    <tr>
                         <td>Provincia: <xsl:value-of select="factura/cliente/provincia"/></td>
                     </tr>
                 </table>
