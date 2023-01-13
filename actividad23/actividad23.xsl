@@ -62,7 +62,7 @@
                         <th>I.V.A.</th>
                         <th>Importe</th>
                     </tr>
-                    <xsl:for-each select="CDs/CD">
+                    <xsl:for-each select="factura/datos/ref">
                         <tr>
                             <td><xsl:value-of select="@titulo"/></td>
                             <td><xsl:value-of select="descripcion"/></td>
