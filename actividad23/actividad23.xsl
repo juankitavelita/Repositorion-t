@@ -31,7 +31,7 @@
                         <td>Forma de pago: <xsl:value-of select="factura/info/pago"/></td>
                     </tr>
                     <tr>
-                        <th>Datos CLIENTE</th>
+                        <th colspan="6">DATOS CLIENTE</th>
                     </tr>
                     <tr>
                         <td colspan="6">nº cliente: <xsl:value-of select="factura/@nunero"/></td>
@@ -51,6 +51,27 @@
                     <tr>
                         <td colspan="6">Provincia: <xsl:value-of select="factura/cliente/provincia"/></td>
                     </tr>
+                    <tr>
+                        <td colspan="6">DATOS FACTURA</td>
+                    </tr>
+                    <tr>
+                        <th>Ref.</th>
+                        <th>Descripción</th>
+                        <th>Cant.</th>
+                        <th>Precio</th>
+                        <th>I.V.A.</th>
+                        <th>Importe</th>
+                    </tr>
+                    <xsl:for-each select="CDs/CD">
+                        <tr>
+                            <td><xsl:value-of select="@titulo"/></td>
+                            <td><xsl:value-of select="descripcion"/></td>
+                            <td><xsl:value-of select="cantidad"/></td>
+                            <td><xsl:value-of select="precio"/></td>
+                            <td><xsl:value-of select="iva"/></td>
+                            <td><xsl:value-of select="importe"/></td>
+                        </tr>
+                    </xsl:for-each>
                 </table>
             </body>
         </html>
