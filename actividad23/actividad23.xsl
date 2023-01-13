@@ -26,11 +26,9 @@
                         <td colspan="2">Reléfono: <xsl:value-of select="factura/empresa/tel"/></td>
                         <td>Pedido <xsl:value-of select="factura/info/pedido"/></td>
                     </tr>
-                    <tr border="1">
+                    <tr border-right="1">
                         <td colspan="2">Fax: <xsl:value-of select="factura/empresa/fax"/></td>
                         <td>Forma de pago: <xsl:value-of select="factura/info/pago"/></td>
-                    </tr>
-                    <tr>
                     </tr>
                 </table>
                 <br/>
