@@ -60,7 +60,7 @@
                         <xs:sequence>
                             <xs:element name="base" type="xs:string" />
                             <xs:element name="iva" type="xs:string" />
-                            <xs:element name="añadido" type="xs:string" />
+                            <xs:element name="anadido" type="xs:string" />
                             <xs:element name="total" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>

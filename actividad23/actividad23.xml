@@ -55,7 +55,7 @@
     <precio>
         <base>970,00€</base>
         <iva>16,0</iva>
-        <añadido>155,20€</añadido>
+        <anadido>155,20€</anadido>
         <total>1125,20€</total>
     </precio>
 </factura>
