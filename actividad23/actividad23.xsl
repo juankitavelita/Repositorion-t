@@ -64,7 +64,7 @@
                     </tr>
                     <xsl:for-each select="factura/datos/ref">
                         <tr>
-                            <td><xsl:value-of select="@titulo"/></td>
+                            <td><xsl:value-of select="@codigo"/></td>
                             <td><xsl:value-of select="descripcion"/></td>
                             <td><xsl:value-of select="cantidad"/></td>
                             <td><xsl:value-of select="precio"/></td>
