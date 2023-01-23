@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="actividad23.xsl" type="text/xsl"?>
-<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="actividad23.xsd" nunero="999">
+<?xml-model href="actividad23.xsd"?>
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nunero="999">
     <info>
         <fecha>12-01-2005</fecha>
         <pedido>nº 731</pedido>
