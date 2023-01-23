@@ -15,90 +15,41 @@
                 <div class="titulo">
                     <h1 style="text-align:center"><xsl:value-of select="title"/></h1>
                 </div>
-                <header>
-                    <xsl:value-of select="description" />
-                    <br/>
-
-                    <html lang="es">
-                        <xsl:value-of select="language" />
-                    </html>
-                    <br/>
-                    <a href="">
-                        <xsl:value-of select="link" />
-                    </a>
-                    <br/>
-                    <xsl:value-of select="lastBuildDate" />
-                </header><br/>
-                <section id="section-main">
-                    <div id="div1">
-                        <div id="div1-1">
-                            <b>Lorem ipsum</b><br/><br/>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel convallis risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In in erat sed dolor suscipit aliquet et vitae lacus.<br/><br/>
-                            Duis convallis mauris at massa iaculis, eu aliquam tortor egestas. Nunc at vestibulum sapien. Nullam urna nunc, sodales ac rutrum sit amet, vulputate vel arcu. Maecenas ut justo sit amet augue gravida vehicula.<br/><br/>
-                            Aenean at libero auctor, rutrum nibh id, hendrerit dolor. Maecenas finibus, libero non pulvinar posuere, purus massa accumsan leo, quis placerat nisi turpis eget erat. Sed semper tempus mi, eget eleifend diam fermentum vel.<br/><br/>
-                            </div>
-                            <div class="div3">
-                                <b>Eniun</b>
-                            </div>
+                <div class="cols">
+                    <div class="col1">
+                        <xsl:value-of select="description" />
                     </div>
-                    <div id="div2">
-                        <div id="div2-1">
-                            <b>Lorem ipsum</b><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                            Lorem ipsum dolor sit amet<br/>
-                            <hr/><br/><br/><br/><br/>
-                            Lorem ipsum dolor sit amet<br/>
-                            <hr/><br/><br/><br/><br/>
-                            Lorem ipsum dolor sit amet<br/>
-                            <hr/><br/><br/><br/><br/>
+                    <div class="col2">
+                        Página oficial -> <xsl:value-of select="link" /><br/>
+                         <br/>
+                        Fecha y hora -> <xsl:value-of select="lastBuildDate" /><br/>
+                         <br/>
+                        Lenguaje -> <xsl:value-of select="language" />
                     </div>
-                    </div>
-                </section>
+                </div>
                 <xsl:for-each select="item">
-                    <a href="">
-                        <xsl:value-of select="guid" />
-                    </a>
-                    <br/>
-                    <xsl:value-of
-                        select="title" />
-                    <br/>
-                    <xsl:value-of
-                        select="pubDate" />
-                    <br/>
-                    <a href="">
-                        <xsl:value-of select="link" />
-                    </a>
-                    <br/>
-                    <xsl:value-of
-                        select="dc:creator" />
-                    <br/>
-                    <xsl:value-of
-                        select="dcterms:alternative" />
-                    <br/>    
-                    <xsl:value-of
-                        select="description" />
-                    <br/>
-                    <xsl:for-each select="category">
-                        <xsl:value-of
-                        select="." /> | 
-                    </xsl:for-each>
-                    <br/>    
-                    <xsl:value-of
-                        select="media:content" />
-                    <br/>    
-                    <xsl:value-of
-                        select="media:credit" />
-                    <br/>    
-                    <xsl:value-of
-                        select="media:title" />
-                    <br/>    
-                    <xsl:value-of
-                        select="media:text" />
-                    <br/>    
-                    <xsl:value-of
-                        select="media:description" />
-                    <br/>
-                
-
+                    <div class="noticia">
+                        <h2><xsl:value-of select="title" /></h2><br/>
+                        <xsl:value-of select="pubDate" /><br/>
+                        <xsl:for-each select="category">
+                            <xsl:value-of select="." /> | 
+                        </xsl:for-each><br/>
+                        <xsl:value-of select="description" /><br/>
+                        <xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="media:content/@url"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="height">
+                                250
+                            </xsl:attribute>
+                        </xsl:element><br/>
+                        <h3><xsl:value-of select="media:title"/></h3><br/>
+                        <b><xsl:value-of select="media:text" /></b><br/>
+                        <xsl:value-of select="media:description" /><br/>
+                        Fotógrafo: <xsl:value-of select="media:credit" /> <br/>
+                        Autor/a: <xsl:value-of select="dc:creator" /><br/>
+                        <a href=""><xsl:value-of select="link" /></a><br/>
+                    </div>
                 </xsl:for-each>
             </body>
         </html>

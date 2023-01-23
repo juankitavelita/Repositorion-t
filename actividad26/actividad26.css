@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(54, 54, 54);
+}
 .titulo{
     margin-left: 0%;
     margin-right: 0%;
@@ -9,50 +15,30 @@
     align-items: center;
     padding-left: 36%;
 }
-#div1{
+.cols {
+    height: 300px;
+    margin-top: 15px;
+}
+.col1 {
     background-color: white;
-    height: 100%;
-    width: 60%;
-    flex-wrap: wrap;
-    flex-flow: wrap;
-    line-height: 20px;
+    width: 65%;
+    height: 100px;
 }
-#div2{
-    background-color: #00d8ca;
-    color: black;
-    height: 175px;
-    width: 31%;
+.col2 {
+    background-color: white;
+    width: 30%;
+    height: 200px;
 }
-#div2-1{
-    padding-top: 25px;
-    padding-left: 22px;
-    padding-right: 22px;
-    font-size: 12px;
-    line-height: 3px;
+.col1, .col2 {
+    display: inline-flex;
+    margin-top: 0%;
 }
-hr{
-    height: 1px;
-    border: none;
-    background-color: black;
+.noticia {
+    margin-top: 25px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-#div2-1 b{
-    font-size: 15px;
-}
-#div1-1{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    font-size: 12px;
-}
-#div1-1 b{
-    font-size: 18px;
-}
-.div3{
-    float: left;
-    width: 100%;
-    background-color: #f3286c;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.noticia h2, a{
+    background-color: white;
 }
