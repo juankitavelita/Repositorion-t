@@ -12,9 +12,9 @@
                 <link rel="stylesheet" href="actividad26.css"/>
             </head>
             <body>
-                <h1 style="text-align:center">
-                    <xsl:value-of select="title" />  
-                </h1>
+                <div class="titulo">
+                    <h1 style="text-align:center"><xsl:value-of select="title"/></h1>
+                </div>
                 <header>
                     <xsl:value-of select="description" />
                     <br />
