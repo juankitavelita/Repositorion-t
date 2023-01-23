@@ -17,42 +17,66 @@
                 </div>
                 <header>
                     <xsl:value-of select="description" />
-                    <br />
+                    <br/>
 
                     <html lang="es">
                         <xsl:value-of select="language" />
                     </html>
-                    <br />
+                    <br/>
                     <a href="">
                         <xsl:value-of select="link" />
                     </a>
-                    <br />
+                    <br/>
                     <xsl:value-of select="lastBuildDate" />
-                </header>
+                </header><br/>
+                <section id="section-main">
+                    <div id="div1">
+                        <div id="div1-1">
+                            <b>Lorem ipsum</b><br/><br/>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel convallis risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In in erat sed dolor suscipit aliquet et vitae lacus.<br/><br/>
+                            Duis convallis mauris at massa iaculis, eu aliquam tortor egestas. Nunc at vestibulum sapien. Nullam urna nunc, sodales ac rutrum sit amet, vulputate vel arcu. Maecenas ut justo sit amet augue gravida vehicula.<br/><br/>
+                            Aenean at libero auctor, rutrum nibh id, hendrerit dolor. Maecenas finibus, libero non pulvinar posuere, purus massa accumsan leo, quis placerat nisi turpis eget erat. Sed semper tempus mi, eget eleifend diam fermentum vel.<br/><br/>
+                            </div>
+                            <div class="div3">
+                                <b>Eniun</b>
+                            </div>
+                    </div>
+                    <div id="div2">
+                        <div id="div2-1">
+                            <b>Lorem ipsum</b><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            Lorem ipsum dolor sit amet<br/>
+                            <hr/><br/><br/><br/><br/>
+                            Lorem ipsum dolor sit amet<br/>
+                            <hr/><br/><br/><br/><br/>
+                            Lorem ipsum dolor sit amet<br/>
+                            <hr/><br/><br/><br/><br/>
+                    </div>
+                    </div>
+                </section>
                 <xsl:for-each select="item">
                     <a href="">
                         <xsl:value-of select="guid" />
                     </a>
-                    <br />
+                    <br/>
                     <xsl:value-of
                         select="title" />
-                    <br />
+                    <br/>
                     <xsl:value-of
                         select="pubDate" />
-                    <br />
+                    <br/>
                     <a href="">
                         <xsl:value-of select="link" />
                     </a>
                     <br/>
                     <xsl:value-of
                         select="dc:creator" />
-                    <br />
+                    <br/>
                     <xsl:value-of
                         select="dcterms:alternative" />
                     <br/>    
                     <xsl:value-of
                         select="description" />
-                    <br />
+                    <br/>
                     <xsl:for-each select="category">
                         <xsl:value-of
                         select="." /> | 

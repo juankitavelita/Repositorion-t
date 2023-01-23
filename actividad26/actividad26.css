@@ -4,4 +4,55 @@
     margin-top: 0%;
     background-color: black;
     color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 36%;
+}
+#div1{
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    line-height: 20px;
+}
+#div2{
+    background-color: #00d8ca;
+    color: black;
+    height: 175px;
+    width: 31%;
+}
+#div2-1{
+    padding-top: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 12px;
+    line-height: 3px;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+#div2-1 b{
+    font-size: 15px;
+}
+#div1-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 12px;
+}
+#div1-1 b{
+    font-size: 18px;
+}
+.div3{
+    float: left;
+    width: 100%;
+    background-color: #f3286c;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
