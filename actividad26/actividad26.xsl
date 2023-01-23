@@ -6,7 +6,7 @@
         </head>
         <html>
             <body>
-                <header><xsl:value-of select="title/"/></header>
+                <xsl:value-of select="title/"/>
             </body>
         </html>
     </xsl:template>
