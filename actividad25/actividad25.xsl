@@ -5,9 +5,9 @@
             <body>
                 factura (<xsl:value-of select="factura/@nunero"/>):<br/>
                     info:<br/>
-                        - fecha: <xsl:value-of select="factura/info/fecha"/><br/>
-                        - pedido: <xsl:value-of select="factura/info/pedido"/><br/>
-                        - pago: <xsl:value-of select="factura/info/pago"/><br/>
+                     - fecha: <xsl:value-of select="factura/info/fecha"/><br/>
+                      - pedido: <xsl:value-of select="factura/info/pedido"/><br/>
+                       - pago: <xsl:value-of select="factura/info/pago"/><br/>
                     empresa:<br/>
                         - nombre: <xsl:value-of select="factura/empresa/nombre"/><br/>
                         - direccion: <xsl:value-of select="factura/empresa/direccion"/><br/>
