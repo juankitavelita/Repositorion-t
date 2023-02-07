@@ -23,19 +23,19 @@
                         - postal: <xsl:value-of select="factura/cliente/postal"/><br/>
                         - provincia: <xsl:value-of select="factura/cliente/provincia"/><br/><br/>
                     datos: <br/>
-                        <xsl:for-each select="datos/ref">
-                            - ref (<xsl:value-of select="factura/datos/ref/@codigo"/>):<br/>
-                            *   * descripcion: <xsl:value-of select="factura/datos/ref/descripcion"/><br/>
-                            *   * cantidad: <xsl:value-of select="factura/datos/ref/cantidad"/><br/>
-                            *   * precio: <xsl:value-of select="factura/datos/ref/precio"/><br/>
-                            *   * iva: <xsl:value-of select="factura/datos/ref/iva"/><br/>
-                            *   * importe: <xsl:value-of select="factura/datos/ref/importe"/><br/>
+                        <xsl:for-each select="factura/datos/ref">
+                            - ref (<xsl:value-of select="@codigo"/>):<br/>
+                            *   * descripcion: <xsl:value-of select="descripcion"/><br/>
+                            *   * cantidad: <xsl:value-of select="cantidad"/><br/>
+                            *   * precio: <xsl:value-of select="precio"/><br/>
+                            *   * iva: <xsl:value-of select="iva"/><br/>
+                            *   * importe: <xsl:value-of select="importe"/><br/>
                         </xsl:for-each><br/>
                     precio: <br/>
-                    - base: <xsl:value-of select="factura/datos/precio/base"/><br/>
-                    - iva: <xsl:value-of select="factura/datos/precio/iva"/><br/>
-                    - añadido: <xsl:value-of select="factura/datos/precio/añadido"/><br/>
-                    - total: <xsl:value-of select="factura/datos/precio/total"/><br/>
+                    - base: <xsl:value-of select="factura/precio/base"/><br/>
+                    - iva: <xsl:value-of select="factura/precio/iva"/><br/>
+                    - añadido: <xsl:value-of select="factura/precio/añadido"/><br/>
+                    - total: <xsl:value-of select="factura/precio/total"/><br/>
             </body>
         </html>
     </xsl:template>
