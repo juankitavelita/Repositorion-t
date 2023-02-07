@@ -23,7 +23,7 @@
                         - postal: <xsl:value-of select="factura/cliente/postal"/><br/>
                         - provincia: <xsl:value-of select="factura/cliente/provincia"/><br/><br/>
                     datos: <br/>
-                        <xsl:for-each select="factura/datos/ref">
+                        <xsl:for-each select="datos/ref">
                             - ref (<xsl:value-of select="factura/datos/ref/@codigo"/>):<br/>
                             *   * descripcion: <xsl:value-of select="factura/datos/ref/descripcion"/><br/>
                             *   * cantidad: <xsl:value-of select="factura/datos/ref/cantidad"/><br/>
