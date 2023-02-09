@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="academia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="baile" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="priodicidad" use="required" />
+                                            <xs:attribute name="moneda" use="required" fixed="euro" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="plazas" type="xs:string" />
+                            <xs:element name="fecha_inicio" type="xs:string" />
+                            <xs:element name="fecha_final" type="xs:string" />
+                            <xs:element name="dias" type="xs:string" />
+                            <xs:element name="profesor" type="xs:string" />
+                            <xs:element name="sala" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="tipo" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

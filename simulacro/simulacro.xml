@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="simulacro.xsl" type="text/xsl"?>
+<academia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="simulacro.xsd">
+    <baile tipo="Claqué">
+        <precio priodicidad="mensual" moneda="euro">30</precio>
+        <plazas>50</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>08/02/2024</fecha_final>
+        <dias>Martes - Jueves - Sabados</dias>
+        <profesor>Fiona</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile tipo="Pasodoble">
+        <precio priodicidad="mensual" moneda="euro">25</precio>
+        <plazas>50</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>15/07/2023</fecha_final>
+        <dias>Lunes - Miercoles - Viernes</dias>
+        <profesor>Bruno</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile tipo="Charlestón">
+        <precio priodicidad="semanal" moneda="euro">15</precio>
+        <plazas>30</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>02/03/2023</fecha_final>
+        <dias>Martes - Jueves - Domingos</dias>
+        <profesor>Bruno</profesor>
+        <sala>3</sala>
+    </baile>
+    <baile tipo="Rumba">
+        <precio priodicidad="mensual" moneda="euro">40</precio>
+        <plazas>30</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>25/05/2023</fecha_final>
+        <dias>Lunes - Miercoles - Viernes</dias>
+        <profesor>Sofia</profesor>
+        <sala>3</sala>
+    </baile>
+    <baile tipo="Cumbia">
+        <precio priodicidad="semanal" moneda="euro">20</precio>
+        <plazas>60</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>09/03/2023</fecha_final>
+        <dias>Martes - Jueves - Domingos</dias>
+        <profesor>Sofia</profesor>
+        <sala>1</sala>
+    </baile>
+    <baile tipo="Esternocleidomastoideo">
+        <precio priodicidad="mensual" moneda="euro">65</precio>
+        <plazas>60</plazas>
+        <fecha_inicio>09/02/2023</fecha_inicio>
+        <fecha_final>31/12/2024</fecha_final>
+        <dias>Lunes - Miercoles - Viernes</dias>
+        <profesor>Fiona</profesor>
+        <sala>1</sala>
+    </baile>
+</academia>
