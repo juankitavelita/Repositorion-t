@@ -11,7 +11,7 @@ version="1.0">
                 <title>Simulacro de examen</title>
             </head>
             <body>
-                <xsl:for-each select="baile">
+                <xsl:for-each select="academia/baile">
                     <xsl:value-of select="@tipo"/><br/>
                     <xsl:value-of select="precio/@mensual"/><br/>
                     <xsl:value-of select="precio"/><br/>
