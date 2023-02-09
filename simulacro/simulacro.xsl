@@ -12,6 +12,7 @@ version="1.0">
             </head>
             <body>
                 <xsl:for-each select="academia/baile">
+                    <xsl:value-of select="@tipo"/>
                     <xsl:value-of select="precio/@mensual"/><br/>
                     <xsl:value-of select="precio"/><br/>
                     <xsl:value-of select="precio/@moneda"/><br/>
