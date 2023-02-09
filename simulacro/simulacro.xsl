@@ -12,7 +12,6 @@ version="1.0">
             </head>
             <body>
                 <xsl:for-each select="academia/baile">
-                    <xsl:value-of select="@tipo"/><br/>
                     <xsl:value-of select="precio/@mensual"/><br/>
                     <xsl:value-of select="precio"/><br/>
                     <xsl:value-of select="precio/@moneda"/><br/>
@@ -21,7 +20,7 @@ version="1.0">
                     <xsl:value-of select="fecha_final"/><br/>
                     <xsl:value-of select="dias"/><br/>
                     <xsl:value-of select="profesor"/><br/>
-                    <xsl:value-of select="sala"/><br/>
+                    <xsl:value-of select="sala"/><br/><br/>
                 </xsl:for-each>
             </body>
         </html>
