@@ -9,6 +9,7 @@ version="1.0">
         <html>
             <head>
                 <title>Simulacro de examen</title>
+                <link rel="stylesheet" href="simulacro.css"/>
             </head>
             <body>
                 <table>
