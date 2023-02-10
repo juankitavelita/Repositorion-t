@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="simulacro.xsl" type="text/xsl"?>
+<?xml-stylesheet href="simulacro" type="text/css"?>
 <academia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="simulacro.xsd">
     <baile tipo="Claqué">
