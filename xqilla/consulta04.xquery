@@ -1,0 +1,1 @@
+doc("actividad27.xml")/bib/libro[@anyo<2000]
