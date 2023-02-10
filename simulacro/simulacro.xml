@@ -3,7 +3,7 @@
 <academia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="simulacro.xsd">
     <baile tipo="Claqué">
-        <precio priodicidad="mensual" moneda="euro">30</precio>
+        <precio periodicidad="mensual" moneda="euro">30</precio>
         <plazas>50</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>08/02/2024</fecha_final>
@@ -12,7 +12,7 @@
         <sala>2</sala>
     </baile>
     <baile tipo="Pasodoble">
-        <precio priodicidad="mensual" moneda="euro">25</precio>
+        <precio periodicidad="mensual" moneda="euro">25</precio>
         <plazas>50</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>15/07/2023</fecha_final>
@@ -21,7 +21,7 @@
         <sala>2</sala>
     </baile>
     <baile tipo="Charlestón">
-        <precio priodicidad="semanal" moneda="euro">15</precio>
+        <precio periodicidad="semanal" moneda="euro">15</precio>
         <plazas>30</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>02/03/2023</fecha_final>
@@ -30,7 +30,7 @@
         <sala>3</sala>
     </baile>
     <baile tipo="Rumba">
-        <precio priodicidad="mensual" moneda="euro">40</precio>
+        <precio periodicidad="mensual" moneda="euro">40</precio>
         <plazas>30</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>25/05/2023</fecha_final>
@@ -39,7 +39,7 @@
         <sala>3</sala>
     </baile>
     <baile tipo="Cumbia">
-        <precio priodicidad="semanal" moneda="euro">20</precio>
+        <precio periodicidad="semanal" moneda="euro">20</precio>
         <plazas>60</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>09/03/2023</fecha_final>
@@ -48,7 +48,7 @@
         <sala>1</sala>
     </baile>
     <baile tipo="Esternocleidomastoideo">
-        <precio priodicidad="mensual" moneda="euro">65</precio>
+        <precio periodicidad="mensual" moneda="euro">65</precio>
         <plazas>60</plazas>
         <fecha_inicio>09/02/2023</fecha_inicio>
         <fecha_final>31/12/2024</fecha_final>
