@@ -17,9 +17,9 @@ version="1.0">
                         <th colspan="3">Pago</th>
                         <th rowspan="2">Plazas</th>
                         <th rowspan="2">Fecha de inicio</th>
-                        <th rowspan="2"> Fecha final</th>
+                        <th rowspan="2">Fecha final</th>
                         <th rowspan="2">Calendario</th>
-                        <th rowspan="2"> Profesor</th>
+                        <th rowspan="2">Profesor</th>
                         <th rowspan="2">Sala</th>
                     </tr>
                     <tr>
@@ -28,16 +28,18 @@ version="1.0">
                         <td><b>Periodicidad</b></td>
                     </tr>
                     <xsl:for-each select="academia/baile">
-                        <xsl:value-of select="@tipo"/>
-                        <xsl:value-of select="precio/@mensual"/><br/>
-                        <xsl:value-of select="precio"/><br/>
-                        <xsl:value-of select="precio/@moneda"/><br/>
-                        <xsl:value-of select="plazas"/><br/>
-                        <xsl:value-of select="fecha_inicio"/><br/>
-                        <xsl:value-of select="fecha_final"/><br/>
-                        <xsl:value-of select="dias"/><br/>
-                        <xsl:value-of select="profesor"/><br/>
-                        <xsl:value-of select="sala"/><br/><br/>
+                        <tr>
+                            <td><xsl:value-of select="@tipo"/></td>
+                            <td><xsl:value-of select="precio"/></td>
+                            <td><xsl:value-of select="precio/@moneda"/></td>
+                            <td><xsl:value-of select="precio/@mensual"/></td>
+                            <td><xsl:value-of select="plazas"/></td>
+                            <td><xsl:value-of select="fecha_inicio"/></td>
+                            <td><xsl:value-of select="fecha_final"/></td>
+                            <td><xsl:value-of select="dias"/></td>
+                            <td><xsl:value-of select="profesor"/></td>
+                            <td><xsl:value-of select="sala"/></td>
+                        </tr>
                     </xsl:for-each>
                 </table>
             </body>
