@@ -14,8 +14,6 @@
             </horarios>
             <empleado>
                 <nombre>Chus</nombre>
-                <dias>Lunes, Martes, Miércoles, Jueves, Viernes</dias>
-                <horas>9:00-13:00, 15:00-19:00</horas>
             </empleado>
         </servicio>
         <servicio nombre="Podología">
@@ -30,8 +28,6 @@
             </horarios>
             <empleado>
                 <nombre>Joana</nombre>
-                <dias>Lunes, Martes, Miércoles, Jueves, Viernes</dias>
-                <horas>9:00-13:00, 15:00-19:00</horas>
             </empleado>
         </servicio>
         <servicio nombre="Psicología">
@@ -46,8 +42,6 @@
             </horarios>
             <empleado>
                 <nombre>Aina</nombre>
-                <dias>Lunes, Martes, Miércoles, Jueves, Viernes</dias>
-                <horas>9:00-13:00, 15:00-19:00</horas>
             </empleado>
         </servicio>
         <servicio nombre="Yoga">
@@ -61,9 +55,7 @@
             <empleado>
                 <nombre>Biel</nombre>
                 <nombre>Alex</nombre>
-                <dias>Lunes, Miércoles, Viernes</dias>
-                <horas>11:00-12:30, 17:00-18:30</horas>
-                </empleado>
+            </empleado>
         </servicio>
         <servicio nombre="Pilates">
             <precio>
@@ -75,23 +67,19 @@
             </horarios>
             <empleado>
                 <nombre>Tolo</nombre>
-                <dias>Martes, Jueves, Viernes</dias>
-                <horas>10:00 a 11:30, 16:00 a 17:30</horas>
             </empleado>
         </servicio>
         <servicio nombre="Meditación Guiada">
-            <precio>
-                <mes>35</mes>
+                <precio>
+            <mes>35</mes>
             </precio>
             <plazas>10</plazas>
             <horarios>
-                <horario>Días laborables de 9:00 a 13:00 y de 15:00 a 19:00</horario>
+                <horario>Lunes, Martes, Miércoles, Jueves y Viernes de 10:00 a 11:00 y de 19:00 a 20:00</horario>
             </horarios>
             <empleado>
                 <nombre>Biel</nombre>
                 <nombre>Alex</nombre>
-                <dias>Lunes, Martes, Miércoles, Jueves, Viernes</dias>
-                <horas>9:00-13:00, 15:00-19:00</horas>
             </empleado>
         </servicio>
     </servicios>
