@@ -20,18 +20,10 @@
                         <tr>
                             <td><xsl:value-of select="@nombre"/></td>
                             <td>
-                                    <xsl:when test="precio/hora">
-                                        <xsl:value-of select="concat(precio/hora, ' €/hora')"/><br/>
-                                    </xsl:when>
-                                    <xsl:when test="precio/mes">
-                                        <xsl:value-of select="concat(precio/mes, ' €/mes')"/><br/>
-                                    </xsl:when>
-                                    <xsl:when test="precio/bono5">
-                                        <xsl:value-of select="concat(precio/bono5, ' €/bono de 5 horas')"/><br/>
-                                    </xsl:when>
-                                    <xsl:when test="precio/bono10">
-                                        <xsl:value-of select="concat(precio/bono10, ' €/bono de 10 horas')"/><br/>
-                                    </xsl:when>
+                                <xsl:value-of select="concat(precio/hora, ' €/hora')"/><br/>
+                                <xsl:value-of select="concat(precio/mes, ' €/mes')"/><br/>
+                                <xsl:value-of select="concat(precio/bono5, ' €/bono de 5 horas')"/><br/>
+                                <xsl:value-of select="concat(precio/bono10, ' €/bono de 10 horas')"/><br/>
                             </td>
                             <td><xsl:value-of select="reserva"/></td>
                             <td><xsl:value-of select="horarios/horario"/></td>
