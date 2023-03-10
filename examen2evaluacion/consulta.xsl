@@ -41,6 +41,7 @@
                                         <xsl:value-of select="concat(plazas, ' plazas')"/>
                                     </xsl:otherwise>
                                 </xsl:choose>
+                            </td>
                             <td><xsl:value-of select="horarios/horario"/></td>
                             <td>
                                 <xsl:for-each select="empleado/nombre">
