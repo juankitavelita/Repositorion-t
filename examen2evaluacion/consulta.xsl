@@ -32,7 +32,16 @@
                                     <xsl:value-of select="concat(precio/bono10, ' €/bono de 10 horas')"/><br/>
                                 </xsl:if>
                             </td>
-                            <td><xsl:value-of select="reserva"/></td>
+                            <td>
+                                <xsl:choose>
+                                    <xsl:when test="reserva">
+                                        <xsl:value-of select="reserva"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="concat(plazas, ' plazas')"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                                <xsl:value-of select="reserva"/></td>
                             <td><xsl:value-of select="horarios/horario"/></td>
                             <td>
                                 <xsl:for-each select="empleado/nombre">
