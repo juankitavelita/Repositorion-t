@@ -44,7 +44,7 @@
                             </td>
                             <td><xsl:value-of select="horarios/horario"/></td>
                             <td>
-                                <xsl:for-each select="empleado/nombre">
+                                <xsl:for-each select="empleados/empleado/nombre">
                                     <xsl:value-of select="."/><br/>
                                 </xsl:for-each>
                             </td>
