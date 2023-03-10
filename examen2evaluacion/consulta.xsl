@@ -11,7 +11,7 @@
                     <tr>
                         <th>Servicio</th>
                         <th>Precio</th>
-                        <th>Reserva</th>
+                        <th>Reserva/Plazas</th>
                         <th>Horarios</th>
                         <th>Empleado(s)</th>
                     </tr>
