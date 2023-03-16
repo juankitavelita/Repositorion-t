@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="actividad29.xsl" type="text/xsl"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -8,8 +9,8 @@
     <xsl:template match="/rss/channel">
         <html>
             <head>
-                <title>Actividad 26</title>
-                <link rel="stylesheet" href="actividad26.css"/>
+                <title>Actividad 29</title>
+                <link rel="stylesheet" href="actividad29.css"/>
             </head>
             <body>
                 <div class="titulo">
