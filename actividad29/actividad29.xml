@@ -28,4 +28,31 @@
     <category>Noticias</category>
     </item>
     </channel>
-    </rss>
+    <channel>
+        <atom:link href="http://todotelecinco.webnode.es/rss/noticias.xml" rel="self" type="application/rss+xml"/>
+        <title>
+        <![CDATA[ Noticias - todotelecinco.webnode.es ]]>
+        </title>
+        <link>http://todotelecinco.webnode.es</link>
+        <language>es</language>
+        <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
+        <lastBuildDate>Thu, 13 Dec 2012 18:18:00 +0100</lastBuildDate>
+        <category>
+        <![CDATA[ Noticias ]]>
+        </category>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Webnode</generator>
+        <item>
+        <title>
+        <![CDATA[ Cancelada la gira de 'La Voz' que contaba con los ocho finalistas ]]>
+        </title>
+        <link>http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</link>
+        <description>
+        <![CDATA[ Telecinco, Boomerang y Universal Music no se han pronunciado aún al respecto. &nbsp; &nbsp; La gira de 'La Voz' ha sido cancelada. Poco más se sabe al respecto, excepto que las páginas encargadas de la venta de entradas han retirado la posibilidad de disfrutar de los concursantes en vivo y en directo.&nbsp; &nbsp; Era cuestión de tiempo que Jesús Vázquez anunciase una gira de conciertos por todo el territorio nacional tras el éxito cosechado por el talent show musical. Concretamente... ]]>
+        </description>
+        <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
+        <guid isPermaLink="true">http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</guid>
+        <category>Noticias</category>
+        </item>
+        </channel>
+</rss>
