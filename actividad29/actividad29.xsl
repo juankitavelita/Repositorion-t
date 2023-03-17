@@ -35,6 +35,14 @@
                             <xsl:value-of select="." /> | 
                         </xsl:for-each><br/>
                         <xsl:value-of select="description" /><br/>
+                        <xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="media:content/@url"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="height">
+                                250
+                            </xsl:attribute>
+                        </xsl:element><br/>
                         <h3><xsl:value-of select="media:title"/></h3><br/>
                         <b><xsl:value-of select="media:text" /></b><br/>
                         <xsl:value-of select="media:description" /><br/>

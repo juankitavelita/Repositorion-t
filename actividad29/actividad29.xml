@@ -1,58 +1,389 @@
-<?xml-stylesheet href="actividad29.xsl" type="text/xsl"?>
-<rss xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="actividad29.xsd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-    <atom:link href="http://todotelecinco.webnode.es/rss/noticias.xml" rel="self" type="application/rss+xml"/>
     <title>
-    <![CDATA[ Noticias - todotelecinco.webnode.es ]]>
+    <![CDATA[ Real Madrid // marca ]]>
     </title>
-    <link>http://todotelecinco.webnode.es</link>
+    <link>http://www.marca.com</link>
+    <description>
+    <![CDATA[ Real Madrid // marca ]]>
+    </description>
     <language>es</language>
-    <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
-    <lastBuildDate>Thu, 13 Dec 2012 18:18:00 +0100</lastBuildDate>
+    <copyright>
+    <![CDATA[ (c) 2023, Unidad Editorial, S.A. ]]>
+    </copyright>
+    <pubDate>Fri, 17 Mar 2023 15:43:11 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Mar 2023 15:43:11 +0100</lastBuildDate>
     <category>
-    <![CDATA[ Noticias ]]>
+    <![CDATA[ News & Politics ]]>
     </category>
-    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <generator>Webnode</generator>
+    <ttl>60</ttl>
+    <atom:link href="https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" rel="self" type="application/rss+xml"/>
+    <image>
+    <title>
+    <![CDATA[ Real Madrid // marca ]]>
+    </title>
+    <url>http://estaticos.marca.com/imagen/canalima144.gif</url>
+    <link>https://www.marca.com</link>
+    <width>144</width>
+    <height>24</height>
+    <description>
+    <![CDATA[ marca.com ]]>
+    </description>
+    </image>
     <item>
     <title>
-    <![CDATA[ Cancelada la gira de 'La Voz' que contaba con los ocho finalistas ]]>
+    <![CDATA[ Champions League quarter-final draw pits Real Madrid vs Chelsea, Manchester City vs Bayern ]]>
     </title>
-    <link>http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</link>
     <description>
-    <![CDATA[ Telecinco, Boomerang y Universal Music no se han pronunciado aún al respecto. &nbsp; &nbsp; La gira de 'La Voz' ha sido cancelada. Poco más se sabe al respecto, excepto que las páginas encargadas de la venta de entradas han retirado la posibilidad de disfrutar de los concursantes en vivo y en directo.&nbsp; &nbsp; Era cuestión de tiempo que Jesús Vázquez anunciase una gira de conciertos por todo el territorio nacional tras el éxito cosechado por el talent show musical. Concretamente... ]]>
+    <![CDATA[ The two have met a couple of times in recent seasons&nbsp;<a href="https://www.marca.com/en/football/champions-league/2023/03/17/641452eb22601d637e8b4578.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
     </description>
-    <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
-    <guid isPermaLink="true">http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</guid>
-    <category>Noticias</category>
+    <dc:creator>
+    <![CDATA[ adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/champions-league/2023/03/17/641452eb22601d637e8b4578.html</link>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Chelsea - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Manchester City - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Bayern Munich - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Inter Milan - English ]]>
+    </category>
+    <category>
+    <![CDATA[ AC Milan - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ The two have met a couple of times in recent seasons ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ CHAMPIONS LEAGUE ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/17/16790540846782.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/17/16790540846782_150x0.jpg" width="150" height="100"/>
+    <media:text/>
+    <guid>https://www.marca.com/en/football/champions-league/2023/03/17/641452eb22601d637e8b4578.html</guid>
+    <pubDate>Fri, 17 Mar 2023 12:57:10 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Real Madrid are super scary in the Champions League quarter-finals ]]>
+    </title>
+    <description>
+    <![CDATA[ Haven&#039;t lost at this stage since 2004&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/16/64137948268e3e6b3e8b45d1.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ MIGUEL ÁNGEL LARA, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/16/64137948268e3e6b3e8b45d1.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ Haven&#039;t lost at this stage since 2004 ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ REAL MADRID ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789208880272.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789208880272_150x0.jpg" width="150" height="100"/>
+    <media:text>Benzema celebrates a goal in the Champions League</media:text>
+    <media:credit role="author">EFE</media:credit>
+    <media:content type="videofile" idKaltura="0_b9auc0ol" url="https://videos.marca.com/v/0_b9auc0ol-champions-league-octavos-vuelta-resumen-y-gol-del-real-madrid-1-0-liverpool"/>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/16/64137948268e3e6b3e8b45d1.html</guid>
+    <pubDate>Thu, 16 Mar 2023 21:22:12 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Courtois reveals the moment that ended Hazard for good ]]>
+    </title>
+    <description>
+    <![CDATA[ Belgian goalkeeper explains his compatriot&#039;s situation at Real Madrid&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/16/6412eafd22601dd45f8b4591.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ NACHO LABARGA, adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/16/6412eafd22601dd45f8b4591.html</link>
+    <category>
+    <![CDATA[ Thibaut Courtois - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Eden Hazard - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Carlo Ancelotti - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ Belgian goalkeeper explains his compatriot&#039;s situation at Real Madrid ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ REAL MADRID ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/16/16789514660114.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/16/16789514660114_150x0.jpg" width="150" height="100"/>
+    <media:text>Thibaut Courtois and Eden Hazard.</media:text>
+    <media:content type="videofile" idKaltura="0_uxnc8guk" url="https://videos.marca.com/v/0_uxnc8guk-klopp-necesitabamos-algo-excepcional-y-no-lo-hicimos"/>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/16/6412eafd22601dd45f8b4591.html</guid>
+    <pubDate>Thu, 16 Mar 2023 11:14:24 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Champions League quarter-final draw: qualified teams, date and time ]]>
+    </title>
+    <description>
+    <![CDATA[ All you need to know about the draw&nbsp;<a href="https://www.marca.com/en/football/champions-league/2023/03/15/64124566ca47412e7e8b4571.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ R.GARCÍA, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/champions-league/2023/03/15/64124566ca47412e7e8b4571.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Bayern Munich - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Manchester City - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Chelsea - English ]]>
+    </category>
+    <category>
+    <![CDATA[ AC Milan - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Inter Milan - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ All you need to know about the draw ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ CHAMPIONS LEAGUE ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788077564704.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788077564704_150x0.jpg" width="150" height="100"/>
+    <media:text/>
+    <guid>https://www.marca.com/en/football/champions-league/2023/03/15/64124566ca47412e7e8b4571.html</guid>
+    <pubDate>Wed, 15 Mar 2023 23:57:40 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Kroos and Modric forever ]]>
+    </title>
+    <description>
+    <![CDATA[ A look back at Real Madrid vs Liverpool&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/15/641244a9ca47412e7e8b456b.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ JUAN IGNACIO GARCÍA-OCHOA, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/15/641244a9ca47412e7e8b456b.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Liverpool - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Toni Kroos - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Luka Modrić - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ A look back at Real Madrid vs Liverpool ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ REAL MADRID ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789177266158.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789177266158_150x0.jpg" width="150" height="100"/>
+    <media:text/>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/15/641244a9ca47412e7e8b456b.html</guid>
+    <pubDate>Wed, 15 Mar 2023 23:38:08 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Real Madrid and Chelsea among nine teams already qualified for the Club World Cup ]]>
+    </title>
+    <description>
+    <![CDATA[ Tournament to begin in 2025 with 12 UEFA teams&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/15/64122e12ca4741370c8b4577.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ JOSÉ FÉLIX DÍAZ, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/15/64122e12ca4741370c8b4577.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Chelsea - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Soccer ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ Tournament to begin in 2025 with 12 UEFA teams ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ CLUB WORLD CUP 2022 -2023 ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789113633558.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/15/16789113633558_150x0.jpg" width="150" height="100"/>
+    <media:text>Real Madrid with the Club World Cup. CHEMA REY</media:text>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/15/64122e12ca4741370c8b4577.html</guid>
+    <pubDate>Wed, 15 Mar 2023 22:44:12 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Barcelona and Real Madrid drift apart without a solution ]]>
+    </title>
+    <description>
+    <![CDATA[ The tension between the two clubs is simmering after all that has happened in the &#039;Negreira case&#039;&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/15/6411f247ca47414f408b458f.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ JOSÉ FÉLIX DÍAZ, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/15/6411f247ca47414f408b458f.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Barcelona - English ]]>
+    </category>
+    <category>
+    <![CDATA[ LaLiga - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ The tension between the two clubs is simmering after all that has happened in the &#039;Negreira case&#039; ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ REAL MADRID ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788344205471.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788344205471_150x0.jpg" width="150" height="100"/>
+    <media:text>Florentino Perez and Joan Laporta.</media:text>
+    <media:credit role="author">RFEF</media:credit>
+    <media:content type="videofile" idKaltura="0_d12y84f3" url="https://videos.marca.com/v/0_d12y84f3-laporta-a-negreira-lo-conocia-un-poco"/>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/15/6411f247ca47414f408b458f.html</guid>
+    <pubDate>Wed, 15 Mar 2023 18:26:52 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Klopp: Real Madrid are a huge team, nothing negative can beat them ]]>
+    </title>
+    <description>
+    <![CDATA[ Liverpool coach looked ahead to the second leg of the Champions League round of 16 tie&nbsp;<a href="https://www.marca.com/en/football/liverpool/2023/03/14/6410e184e2704e2f0f8b459d.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ MIGUEL ÁNGEL LARA, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/liverpool/2023/03/14/6410e184e2704e2f0f8b459d.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Champions League - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Liverpool - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ Liverpool coach looked ahead to the second leg of the Champions League round of 16 tie ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ CHAMPIONS LEAGUE ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788231361675.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16788231361675_150x0.jpg" width="150" height="100"/>
+    <media:text>Jürgen Klopp en rueda de prensa</media:text>
+    <media:credit role="author">KIKO HUESCA</media:credit>
+    <media:content type="videofile" idKaltura="0_za2gkc7t" url="https://videos.marca.com/v/0_za2gkc7t-klopp-el-madrid-es-un-equipo-enorme-nada-negativo-puede-con-ellos"/>
+    <guid>https://www.marca.com/en/football/liverpool/2023/03/14/6410e184e2704e2f0f8b459d.html</guid>
+    <pubDate>Tue, 14 Mar 2023 22:17:13 +0100</pubDate>
+    </item>
+    <item>
+    <title>
+    <![CDATA[ Ancelotti responds to and agrees with Hazard: He's right, we don't speak much ]]>
+    </title>
+    <description>
+    <![CDATA[ The coach also previewed the Liverpool second leg&nbsp;<a href="https://www.marca.com/en/football/real-madrid/2023/03/14/6410898de2704eca058b45ae.html"> Leer </a><img src="http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-marca&amp;ci=es-widgetueditorial&amp;si=https://e00-marca.uecdn.es/rss/en/football/real-madrid.xml" alt=""/> ]]>
+    </description>
+    <dc:creator>
+    <![CDATA[ JOEL DEL RÍO, Adapted by SAM ]]>
+    </dc:creator>
+    <link>https://www.marca.com/en/football/real-madrid/2023/03/14/6410898de2704eca058b45ae.html</link>
+    <category>
+    <![CDATA[ Agency_SAM ]]>
+    </category>
+    <category>
+    <![CDATA[ Carlo Ancelotti - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Real Madrid - English ]]>
+    </category>
+    <category>
+    <![CDATA[ Eden Hazard - English ]]>
+    </category>
+    <media:description type="html">
+    <![CDATA[ The coach also previewed the Liverpool second leg ]]>
+    </media:description>
+    <media:title type="html">
+    <![CDATA[ REAL MADRID ]]>
+    </media:title>
+    <media:content url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16787923274840.jpg" medium="image" width="1980" height="1320"/>
+    <media:thumbnail url="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/14/16787923274840_150x0.jpg" width="150" height="100"/>
+    <media:text>Carlo Ancelotti in a Real Madrid press conference</media:text>
+    <guid>https://www.marca.com/en/football/real-madrid/2023/03/14/6410898de2704eca058b45ae.html</guid>
+    <pubDate>Tue, 14 Mar 2023 15:59:02 +0100</pubDate>
     </item>
     </channel>
-    <channel>
-        <atom:link href="http://todotelecinco.webnode.es/rss/noticias.xml" rel="self" type="application/rss+xml"/>
-        <title>
-        <![CDATA[ Noticias - todotelecinco.webnode.es ]]>
-        </title>
-        <link>http://todotelecinco.webnode.es</link>
-        <language>es</language>
-        <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
-        <lastBuildDate>Thu, 13 Dec 2012 18:18:00 +0100</lastBuildDate>
-        <category>
-        <![CDATA[ Noticias ]]>
-        </category>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Webnode</generator>
-        <item>
-        <title>
-        <![CDATA[ Cancelada la gira de 'La Voz' que contaba con los ocho finalistas ]]>
-        </title>
-        <link>http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</link>
-        <description>
-        <![CDATA[ Telecinco, Boomerang y Universal Music no se han pronunciado aún al respecto. &nbsp; &nbsp; La gira de 'La Voz' ha sido cancelada. Poco más se sabe al respecto, excepto que las páginas encargadas de la venta de entradas han retirado la posibilidad de disfrutar de los concursantes en vivo y en directo.&nbsp; &nbsp; Era cuestión de tiempo que Jesús Vázquez anunciase una gira de conciertos por todo el territorio nacional tras el éxito cosechado por el talent show musical. Concretamente... ]]>
-        </description>
-        <pubDate>Thu, 13 Dec 2012 18:18:00 +0100</pubDate>
-        <guid isPermaLink="true">http://todotelecinco.webnode.es/news/cancelada-la-gira-de-la-voz-que-contaba-con-los-ocho-finalistas/</guid>
-        <category>Noticias</category>
-        </item>
-        </channel>
-</rss>
+    </rss>
