@@ -1,1 +1,0 @@
-doc("actividad27.xml")/bib/libro[precio=65.95]
