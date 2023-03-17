@@ -1,4 +1,5 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <?xml-stylesheet href="actividad29.xsl" type="text/xsl"?>
     <channel>
     <atom:link href="http://todotelecinco.webnode.es/rss/noticias.xml" rel="self" type="application/rss+xml"/>
     <title>
