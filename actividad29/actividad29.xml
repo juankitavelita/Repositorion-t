@@ -1,5 +1,6 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
-    <?xml-stylesheet href="actividad29.xsl" type="text/xsl"?>
+<?xml-stylesheet href="actividad29.xsl" type="text/xsl"?>
+<rss xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="actividad29.xsd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>
     <atom:link href="http://todotelecinco.webnode.es/rss/noticias.xml" rel="self" type="application/rss+xml"/>
     <title>

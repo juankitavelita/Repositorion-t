@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rss">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="channel">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="link" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="href" />
+                                            <xs:attribute name="rel" />
+                                            <xs:attribute name="type" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="title" />
+                            <xs:element name="language" type="xs:string" />
+                            <xs:element name="pubDate" type="xs:string" />
+                            <xs:element name="lastBuildDate" type="xs:string" />
+                            <xs:element name="category" />
+                            <xs:element name="docs" type="xs:string" />
+                            <xs:element name="generator" type="xs:string" />
+                            <xs:element name="item">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="title" />
+                                        <xs:element name="link" type="xs:string" />
+                                        <xs:element name="description" />
+                                        <xs:element name="pubDate" type="xs:string" />
+                                        <xs:element name="guid">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="isPermaLink"
+                                                            type="xs:boolean" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="category" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="version" type="xs:decimal" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
